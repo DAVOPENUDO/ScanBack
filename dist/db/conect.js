@@ -5,10 +5,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const mysql_1 = __importDefault(require("mysql"));
 const conexion = mysql_1.default.createConnection({
-    host: 'timbrat.mx',
-    database: 'httptimbrat_Alumnos',
-    user: 'httptimbrat_qr',
-    password: '86OC_Zabe1Wi'
+   host: 'junction.proxy.rlwy.net',
+   database: 'railway',
+   user: 'root',
+   password: 'pdsxvzqhYmGEHWTbyPLnSDwfjMpjncMh'
 });
 exports.default = conexion;
 /**
