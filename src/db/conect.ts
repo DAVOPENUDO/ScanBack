@@ -1,10 +1,10 @@
 import mysql, {Connection} from 'mysql';
 
 const conexion:Connection = mysql.createConnection({
-    host:'127.0.0.1',
-    database:'bdempresa',
-    user:'root',
-    password:''
+   host: 'junction.proxy.rlwy.net',
+   database: 'railway',
+   user: 'root',
+   password: 'pdsxvzqhYmGEHWTbyPLnSDwfjMpjncMh'
 });
 export default conexion;
 /**
